@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{91F40A64-780F-4B58-9354-8C3C80462058}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QLKho_ttn</RootNamespace>
+    <AssemblyName>QLKho_ttn</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form_AddKHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AddKHang.Designer.cs">
+      <DependentUpon>Form_AddKHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_AddType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AddType.Designer.cs">
+      <DependentUpon>Form_AddType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Home.Designer.cs">
+      <DependentUpon>Form_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQL_Connect.cs" />
+    <Compile Include="UserControl_LichSu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl_LichSu.Designer.cs">
+      <DependentUpon>UserControl_LichSu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_NCC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl_NCC.Designer.cs">
+      <DependentUpon>UserControl_NCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_Nhap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl_Nhap.Designer.cs">
+      <DependentUpon>UserControl_Nhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_QlyHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl_QlyHang.Designer.cs">
+      <DependentUpon>UserControl_QlyHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_QLyTaiKhoan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl_QLyTaiKhoan.Designer.cs">
+      <DependentUpon>UserControl_QLyTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_SLton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl_SLton.Designer.cs">
+      <DependentUpon>UserControl_SLton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_Xuat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl_Xuat.Designer.cs">
+      <DependentUpon>UserControl_Xuat.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form_AddKHang.resx">
+      <DependentUpon>Form_AddKHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_AddType.resx">
+      <DependentUpon>Form_AddType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Home.resx">
+      <DependentUpon>Form_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UserControl_LichSu.resx">
+      <DependentUpon>UserControl_LichSu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl_NCC.resx">
+      <DependentUpon>UserControl_NCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl_Nhap.resx">
+      <DependentUpon>UserControl_Nhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl_QlyHang.resx">
+      <DependentUpon>UserControl_QlyHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl_QLyTaiKhoan.resx">
+      <DependentUpon>UserControl_QLyTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl_SLton.resx">
+      <DependentUpon>UserControl_SLton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl_Xuat.resx">
+      <DependentUpon>UserControl_Xuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
