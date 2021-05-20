@@ -18,3 +18,23 @@ C:\Users\Erinys\source\repos\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.csproj.Core
 C:\Users\Erinys\source\repos\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.exe
 C:\Users\Erinys\source\repos\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.pdb
 C:\Users\Erinys\source\repos\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.csprojAssemblyReference.cache
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\bin\Debug\QLKho_ttn.exe.config
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\bin\Debug\QLKho_ttn.exe
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\bin\Debug\QLKho_ttn.pdb
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.csprojAssemblyReference.cache
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.Form_AddKHang.resources
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.Form1.resources
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.Form_AddType.resources
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.Form_Home.resources
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.Properties.Resources.resources
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.UserControl_LichSu.resources
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.UserControl_NCC.resources
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.UserControl_Nhap.resources
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.UserControl_QlyHang.resources
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.UserControl_QLyTaiKhoan.resources
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.UserControl_SLton.resources
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.UserControl_Xuat.resources
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.csproj.GenerateResource.cache
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.csproj.CoreCompileInputs.cache
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.exe
+C:\Users\DUY\Desktop\New folder (3)\QLK_ttn\QLKho_ttn\QLKho_ttn\obj\Debug\QLKho_ttn.pdb
