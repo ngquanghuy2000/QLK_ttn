@@ -22,12 +22,13 @@ namespace QLKho_ttn
         {
             this.Dispose();
         }
-
+        //click Login
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
                 sqlc.Open();
+                //Xac thuc password
                 string Myquery = @"select AdminRole from User_ where UserName='" + textBox1.Text + "' and Password_='" + textBox2.Text + "'";
                 SqlDataAdapter sqla = new SqlDataAdapter(Myquery, sqlc);
                 SqlCommandBuilder builder = new SqlCommandBuilder(sqla);
